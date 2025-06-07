@@ -1,0 +1,10 @@
+[core]
+    remote = onedrive-local
+['remote "myremote"']
+    url = gdrive://1jSg_sxcRl3K_2mcv5ssI1QlO45mVZwng
+    gdrive_acknowledge_abuse = true
+['remote "gdrive-remote"']
+    url = gdrive://1TH9I0ubFQimqyWlGGR9jTSZV6JrSvx4C
+    gdrive_use_service_account = false
+['remote "onedrive-local"']
+    url = C:\Users\alexa\OneDrive\dvc -remote
